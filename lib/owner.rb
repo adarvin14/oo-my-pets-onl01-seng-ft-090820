@@ -32,5 +32,9 @@ class Owner
     self.all.clear
   end
   
+  def cats
+    self.select.cats
+  
+  
   
 end
