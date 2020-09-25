@@ -24,6 +24,8 @@ class Owner
     @@all
   end
   
+  def pets
+    pets = self.dog + self.cats
   
   
 end
