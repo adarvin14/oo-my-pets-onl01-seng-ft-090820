@@ -33,7 +33,7 @@ class Owner
   end
   
   def cats
-    self.select.cats
+    Cat.all.select{|cat|cat.name
   
   
   
