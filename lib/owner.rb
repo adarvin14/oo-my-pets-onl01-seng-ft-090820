@@ -33,7 +33,7 @@ class Owner
   end
   
   def cats
-    Cat.all.select{|cat|cat.name
+    Cat.all.select{|cat|cat.owner = se;f}
   
   
   
