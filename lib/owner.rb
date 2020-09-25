@@ -17,4 +17,7 @@ class Owner
     @species
   end
  
+  def say_species
+    ""
+ 
 end
