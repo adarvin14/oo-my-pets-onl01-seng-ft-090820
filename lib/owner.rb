@@ -49,6 +49,6 @@ class Owner
   end
   
   def walk_dogs(mood)
-    
+    self.dogs.each{|dog| dog.mood = happy}
   
 end
