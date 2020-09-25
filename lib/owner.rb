@@ -24,8 +24,12 @@ class Owner
     @@all
   end
   
+  def self.count
+    
+  
   def pets
     pets = self.dog + self.cats
+  end
   
   
 end
